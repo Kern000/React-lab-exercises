@@ -14,7 +14,7 @@ export default function RecipeBook (){
 
     useEffect(()=>{
         fetchData();
-    })
+    },[])
 
     function renderContentChoice(){
         if (active === "listing"){

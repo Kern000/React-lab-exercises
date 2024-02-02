@@ -38,7 +38,7 @@ export default function SurveyForm (){
         axios.get('json/colours.json').then(result => setColourOptions(result.data));
         axios.get('json/countries.json').then(result => setCountryOptions(result.data));
         axios.get('json/fruits.json').then(result => setFruitOptions(result.data));
-    })
+    },[])
 
     function renderColours(){
         let formOptions = [];
