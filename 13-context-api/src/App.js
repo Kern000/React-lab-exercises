@@ -39,8 +39,6 @@ const App = () => {
   
   }
 
-
-
   return (
     <ProductContext.Provider value={context}>
       <React.Fragment>
