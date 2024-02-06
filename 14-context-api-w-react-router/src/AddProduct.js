@@ -18,25 +18,12 @@ const AddProduct = () => {
         }
     };
 
-    useEffect(()=>{
-        console.log("context here", context)
-        console.log("products state here", context.products)
-    },[])
-
     const onAddProduct = () => {
         context.addProduct(product_name, cost);
     }
 
     return (
-        <React.Fragment>
-
-            <ul>
-
-                {context.products.map(p => (
-                    <li>{p.product_name}</li>))
-                }                
-            </ul>
-            
+        <React.Fragment>           
             <h1>Add New Product</h1>
             <div>
                 <label> Product Name </label>

@@ -1,15 +1,27 @@
 import React from 'react';
 import ProductContextData from './ProductContext.js';
-import ProductListing from './ProductListing.js';
+import {  BrowserRouter as Router, 
+          Routes, 
+          Route, 
+          Link} from 'react-router-dom'
+import ProductListingPage from './pages/ProductListingPage.js';
+import ProductDetailsPage from './pages/ProductDetailsPage.js';
 
 export default function App(){
-
+ 
   return (
-    <ProductContextData>
       <React.Fragment>
-        <ProductListing />
+        <ProductContextData>
+          <Router>
+            <Routes>
+              <Route  path="/" element={<ProductListingPage />} />
+              <Route  path="/productDetails/:productID"
+                      element={<ProductDetailsPage />}
+              />
+            </Routes>
+          </Router>
+        </ProductContextData>
       </React.Fragment>
-    </ProductContextData>
   )
 
 }

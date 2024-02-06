@@ -24,9 +24,17 @@ export default function ProductContextData (props) {
         setProducts(productsWithNewAdded);
     }
 
+    function getProductByID (productParams){
+        
+        const foundProduct = products.filter((p)=> p.id === parseInt(productParams));
+        
+        return foundProduct;
+    }
+
     let context = {
         products: products,
-        addProduct: addProduct
+        addProduct: addProduct,
+        getProductByID: getProductByID
     }
 
     return (
