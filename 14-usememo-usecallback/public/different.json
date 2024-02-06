@@ -1,0 +1,33 @@
+[
+    {
+      "id": 101,
+      "name": "Hamburger",
+      "cost": 3.99
+    },
+    {
+      "id": 102,
+      "name": "Onion Rings",
+      "cost": 2.49
+    },
+    {
+      "id": 103,
+      "name": "Fish Fillet Sandwich",
+      "cost": 4.49
+    },
+    {
+      "id": 104,
+      "name": "Grilled Chicken Sandwich",
+      "cost": 5.49
+    },
+    {
+      "id": 105,
+      "name": "Ice Cream Sundae",
+      "cost": 3.29
+    },
+    {
+      "id": 106,
+      "name": "Bottled Water",
+      "cost": 1.29
+    }
+  ]
+  

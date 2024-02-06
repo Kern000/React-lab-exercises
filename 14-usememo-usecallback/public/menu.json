@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Cheeseburger",
+      "cost": 4.99
+    },
+    {
+      "id": 2,
+      "name": "Fries",
+      "cost": 1.99
+    },
+    {
+      "id": 3,
+      "name": "Chicken Nuggets",
+      "cost": 3.49
+    },
+    {
+      "id": 4,
+      "name": "Veggie Burger",
+      "cost": 5.99
+    },
+    {
+      "id": 5,
+      "name": "Milkshake",
+      "cost": 2.99
+    },
+    {
+      "id": 6,
+      "name": "Soft Drink",
+      "cost": 1.49
+    }
+  ]
+  
